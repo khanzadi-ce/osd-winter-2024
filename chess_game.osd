@@ -1,0 +1,60 @@
+* Mogram 
+chess game
+player
+event game 
+time 
+state 
+physical objects
+rules
+
+
+* (in)formal definition
+chess game is a set of players, events game, time and state, physical objects and Rules.
+
+* mathematical expression of line 9: 
+chess game (CHG) is a set of players (P), events game (E), time (T) and state (S), physical objects (PO) and Rules (R).
+CHG = {P,E,T,S,PO,R}
+
+-------------------------------------
+* Symbol Table 
+Symbol      meaning 
+------      --------
+*           comment 
+CHG         chess game 
+P           player
+E           event 
+T           time 
+S           state
+PO          physical objects
+R           rules
+#           the object is countable 
+?           vagueness   
+==          interaction 
+?==         unknown interaction (I am not sure about the existence the interaction or its type), it is possible to have this interaction 
+-------------------------------------
+
+
+* Counting: Countable or uncountable
+chess game (CHG: #) is a set of players (P: #), events game (E: #), time (T: #) and state (S: #), physical objects (PO: #) and Rules (R: #).
+
+** numerical domain for each symbol (mogram)
+CHG: 1-N : N in Natural Number
+P  : ?-2-?
+E  : ? 
+T  : ? 
+S  : ? 
+PO : ?
+R  : ? 
+
+* Interaction(s)
+CHG = {P,E,T,S,PO,R}
+ - each element has at least one Interaction with another element in CHG. 
+ - ? 
+    example: 
+        P == PO
+        P ?== P 
+
+** Semantics:
+    structure: <mogram> == <mogram> ... == <mogram>: order of the mograms are not important. 
+    concept: if <mogram_1> == <mogram_2>, then there is a message passing between mograms. 
+
